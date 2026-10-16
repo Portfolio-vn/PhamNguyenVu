@@ -213,7 +213,7 @@ h1 em{font-family:var(--serif);font-style:italic;font-weight:400;color:var(--tea
 .report .g2 img{border-radius:8px;aspect-ratio:1;object-fit:cover}
 
 /* awards */
-.awards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:36px}
+.awards{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:36px}
 .awc{display:flex;flex-direction:column;gap:12px}
 .aw{perspective:1000px;height:320px}
 .aw-in{position:relative;width:100%;height:100%;transition:transform .9s var(--ease);transform-style:preserve-3d}
@@ -304,7 +304,7 @@ h1 em{font-family:var(--serif);font-style:italic;font-weight:400;color:var(--tea
 .mail{display:inline-block;margin-top:14px;font-size:clamp(18px,3vw,28px);font-weight:500;border-bottom:2px solid var(--teal);padding-bottom:4px;word-break:break-all}
 footer{border-top:1px solid var(--line);padding:26px clamp(16px,5vw,64px);display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-family:var(--mono);font-size:12px;color:var(--muted)}
 
-@media (max-width:1100px){nav a.l{padding:8px 10px;font-size:12.5px}}
+@media (max-width:1100px){nav a.l{padding:8px 10px;font-size:12.5px}.awards{grid-template-columns:repeat(2,1fr)}}
 @media (max-width:980px){
   #hero,.proj-head,.edu,.formtab,.intern,.comm,.paper-top{grid-template-columns:1fr}
   .paper .doc{max-width:200px}
@@ -402,7 +402,7 @@ footer{border-top:1px solid var(--line);padding:26px clamp(16px,5vw,64px);displa
     <div class="const reveal" style="--w:87%"><div class="sym">η · <span data-vi>hiệu suất tổng</span><span data-en>overall yield</span></div><div class="v"><span data-count="87.28" data-dec="2">0</span><small>%</small></div><p data-vi>N-acetyl-DL-leucine, quy mô 1 kg</p><p data-en>N-acetyl-DL-leucine, 1 kg scale</p><i class="meter"></i></div>
     <div class="const reveal d1" style="--w:98%"><div class="sym">API assay</div><div class="v"><span data-count="98.1" data-dec="1">0</span><small>%</small></div><p data-vi>Đạt chuẩn dược điển</p><p data-en>Pharmacopoeial QC standards</p><i class="meter"></i></div>
     <div class="const reveal d2" style="--w:99.9%"><div class="sym" data-vi>hiệu quả kháng khuẩn</div><div class="sym" data-en>antibacterial efficacy</div><div class="v"><span data-count="99.9" data-dec="1">0</span><small>%</small></div><p data-vi>Nước súc miệng thảo dược · WICO</p><p data-en>Herbal mouthwash · WICO Gold</p><i class="meter"></i></div>
-    <div class="const reveal d3" style="--w:100%"><div class="sym">Au · <span data-vi>giải vàng</span><span data-en>gold awards</span></div><div class="v"><span data-count="3">0</span><small>×</small></div><p>Singapore &amp; Korea, 2025–2026</p><i class="meter"></i></div>
+    <div class="const reveal d3" style="--w:100%"><div class="sym">Au · <span data-vi>giải vàng</span><span data-en>gold awards</span></div><div class="v"><span data-count="4">0</span><small>×</small></div><p>Singapore, Korea &amp; Croatia, 2025–2026</p><i class="meter"></i></div>
   </div>
 </section>
 
@@ -494,7 +494,7 @@ footer{border-top:1px solid var(--line);padding:26px clamp(16px,5vw,64px);displa
 <!-- AWARDS -->
 <section id="awards">
   <div class="label reveal"><svg viewBox="0 0 44 10"><path d="M0 5h40m-6-4 6 4-6 4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>04 · <span data-vi>Giải thưởng</span><span data-en>Honors &amp; awards</span></div>
-  <h2 class="reveal"><span data-vi>Nguyên tố <em>79</em>, ba lần.</span><span data-en>Element <em>79</em>, three times.</span></h2>
+  <h2 class="reveal"><span data-vi>Nguyên tố <em>79</em>, bốn lần.</span><span data-en>Element <em>79</em>, four times.</span></h2>
   <div class="awards">
     <div class="awc reveal"><div class="aw"><div class="aw-in">
       <div class="face front"><div class="z"><span>79</span><span>05/2025</span></div><div class="s">Au</div><div class="t">Gold · Advanced Innovation Global Competition (AIGC)</div><div class="loc">SINGAPORE</div></div>
@@ -508,6 +508,10 @@ footer{border-top:1px solid var(--line);padding:26px clamp(16px,5vw,64px);displa
       <div class="face front"><div class="z"><span>79</span><span>07/2026</span></div><div class="s">Au</div><div class="t">Gold · AXGO AX Global Olympiad 2026</div><div class="loc">KOREA</div></div>
       <div class="face back"><div><div class="t" data-vi>Hydrogel thảo dược từ <i>Sambucus javanica</i></div><div class="t" data-en><i>Sambucus javanica</i> herbal hydrogel</div><p data-vi>Nghiên cứu hoạt tính kháng viêm và bào chế hydrogel thảo dược giảm sưng khớp và cơ.</p><p data-en>Investigated anti-inflammatory activity and formulated an herbal hydrogel for joint and muscular swelling.</p></div><div class="z">ANTI-INFLAMMATORY</div></div>
     </div></div><a class="certbtn" href="images/cert-axgo.jpg" data-lb="aw"><img src="images/cert-axgo.jpg" alt="" loading="lazy" data-cap-vi="Chứng nhận Giải Vàng AXGO, 14/07/2026" data-cap-en="AXGO Gold Award certificate, July 14, 2026"><div><b data-vi>Xem chứng nhận</b><b data-en>View certificate</b><span>AXGO 2026 · Gold</span></div></a></div>
+    <div class="awc reveal d3"><div class="aw"><div class="aw-in">
+      <div class="face front"><div class="z"><span>79</span><span>10/2026</span></div><div class="s">Au</div><div class="t">Gold · INOVA 2026 · 50th International Invention Show</div><div class="loc">ZAGREB · CROATIA</div></div>
+      <div class="face back"><div><div class="t" data-vi>Màng bọc thực phẩm sinh học tích hợp tinh dầu</div><div class="t" data-en>Essential oil-integrated biodegradable food wrap</div><p data-vi>Phát triển màng bọc thực phẩm phân hủy sinh học tích hợp tinh dầu, có khả năng kháng khuẩn và kháng nấm.</p><p data-en>Development of an essential oil-integrated biodegradable food wrap with antimicrobial and antifungal properties.</p></div><div class="z">ANTIMICROBIAL · ANTIFUNGAL</div></div>
+    </div></div><a class="certbtn" href="images/cert-inova-2026.jpg" data-lb="aw"><img src="images/cert-inova-2026.jpg" alt="" loading="lazy" data-cap-vi="Chứng nhận Huy chương Vàng INOVA 2026, Zagreb, 10/2026" data-cap-en="INOVA 2026 Gold Medal certificate, Zagreb, October 2026"><div><b data-vi>Xem chứng nhận</b><b data-en>View certificate</b><span>INOVA 2026 · Gold</span></div></a></div>
   </div>
   <p class="hint reveal"><span data-vi>↻ Di chuột (hoặc chạm) vào ô để xem đề tài · bấm “Xem chứng nhận” để phóng to.</span><span data-en>↻ Hover (or tap) a tile to see the project · click “View certificate” to enlarge.</span></p>
 </section>
@@ -642,7 +646,7 @@ let tx=0;lb.addEventListener('touchstart',e=>tx=e.touches[0].clientX,{passive:tr
 
 (()=>{
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)],root=document.documentElement;
-const G=[['lab-07','lab','Tạo hạt','Granulation'],['cert-aigc','aw','Giải Vàng AIGC 2025','AIGC Gold 2025'],['lab-05','lab','Chuẩn bị mẫu','Preparing samples'],['hust-internship','act','Thực tập HUST','HUST internship'],
+const G=[['cert-inova-2026','aw','HC Vàng INOVA 2026','INOVA Gold 2026'],['lab-07','lab','Tạo hạt','Granulation'],['inova-2026-medal','aw','Huy chương INOVA 2026','INOVA 2026 medal'],['cert-aigc','aw','Giải Vàng AIGC 2025','AIGC Gold 2025'],['lab-05','lab','Chuẩn bị mẫu','Preparing samples'],['hust-internship','act','Thực tập HUST','HUST internship'],
 ['lab-12','lab','Cân dung dịch','Weighing solutions'],['cert-wico','aw','Giải Vàng WICO 2025','WICO Gold 2025'],['hospital-7','act','Bệnh viện Nhi Trung ương','National Children’s Hospital'],['lab-08','lab','Trộn khối ẩm','Wet massing'],
 ['cert-axgo','aw','Giải Vàng AXGO 2026','AXGO Gold 2026'],['lab-10','lab','Trong phòng thí nghiệm','In the lab'],['hospital-4','act','Buổi gặp gỡ','Meeting'],['lab-14','lab','Thử độ sủi','Effervescence test'],
 ['cert-club-1','act','Showcase 25: Gửi Lửa','Showcase 25: Gui Lua'],['lab-11','lab','Rây cốm','Sieving granules'],['cert-club-2','act','Ams Crew','Ams Crew'],['granules-2','lab','Cốm thành phẩm','Finished granules'],
